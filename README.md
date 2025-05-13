@@ -10,8 +10,28 @@ This project presents a comprehensive analysis of Netflix's movies and TV shows 
 - Explore and categorize content based on specific criteria and keywords.
 ## Dataset
 - Source: [Kaggle Netflix Dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download)
-- Contains information on:
-              - Title, Type (Movie/TV Show)
-              - Director, Cast
-              - Country, Release Year
-              - Duration, Rating, and Genre (listed as listed_in)
+
+##  Schema
+```sql
+CREATE TABLE netflix(
+	show_id VARCHAR(6),
+	type  VARCHAR(10),
+	title  VARCHAR(150),
+	director  VARCHAR(208),
+	casts    VARCHAR(1000),
+	country     VARCHAR(150),
+	date_added   VARCHAR(50),
+	release_year INT,
+	rating      VARCHAR(10),
+	duration   VARCHAR(15),
+	listed_in  VARCHAR(100),
+	description  VARCHAR(250)
+);
+
+
+
+
+
+
+
+```
