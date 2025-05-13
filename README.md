@@ -8,3 +8,10 @@ This project presents a comprehensive analysis of Netflix's movies and TV shows 
 - Identify the most common ratings for movies and TV shows.
 - List and analyze content based on release years, countries, and durations.
 - Explore and categorize content based on specific criteria and keywords.
+## Dataset
+- Source: [Kaggle Netflix Dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download)
+- Contains information on:
+              - Title, Type (Movie/TV Show)
+              - Director, Cast
+              - Country, Release Year
+              - Duration, Rating, and Genre (listed as listed_in)
