@@ -1,4 +1,6 @@
-# Netflix Content Analysis Using SQL 
+# 🎬 Netflix Data Analysis Using SQL
+## 📌 Project Title
+**Netflix Content Analysis Using SQL**
 ![Netflix_logo](https://github.com/misba-coder/Netflix_SQL_project/blob/main/logo.png)
 
 ##  Overview
