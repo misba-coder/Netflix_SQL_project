@@ -128,7 +128,7 @@ group by genre;
 ```
 **Objective**: Count the number of content items in each genre.
 
-### 10.Find each year and the average numbers of content release in India on netflix.Return top 5 year with highest avg content release!
+### 10.Find each year and the average numbers of content release in India on netflix.Return top 5 year with highest avg content release
 ```sql
 select
 	extract(year from to_date(date_added, 'Month DD, YYYY')) as year,
