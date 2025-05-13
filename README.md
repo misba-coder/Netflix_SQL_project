@@ -10,6 +10,11 @@ This project presents a comprehensive analysis of Netflix's movies and TV shows 
 - Explore and categorize content based on specific criteria and keywords.
 ## Dataset
 - Source: [Kaggle Netflix Dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download)
+  
+## Tools & Technologies Used
+- Database: PostgreSQL
+- Language: SQL
+- Platform: pgAdmin4
 
 ##  Schema
 ```sql
@@ -28,10 +33,29 @@ CREATE TABLE netflix(
 	description  VARCHAR(250)
 );
 
-
-
-
-
-
-
 ```
+## Business Problems and Solutions
+
+### 1.Count the Number of Movies vs TV Shows
+```sql
+select type,count(*) as total_count
+	from netflix
+group by type;
+```
+**Objective**: Determine the distribution of content types on Netflix.
+
+### 2. Find the Most Common Rating for Movies and TV Shows
+```sql
+
+select type, rating
+from
+	(select type,
+	rating,
+	count(*),
+	rank() over(partition by type order by count(*) desc) as ranking
+	 from netflix
+	 group by type, rating) as t1
+ where ranking =1;
+```
+**Objective**: Identify the most frequently occurring rating for each type of content.
+
