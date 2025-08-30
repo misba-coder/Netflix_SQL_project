@@ -222,10 +222,10 @@ GROUP BY 1;
 This analysis provides a comprehensive view of Netflix's content and can help inform content strategy and decision-making.
 
 ## Author:
-**[Misba Khatoon]**
+**Misba Khatoon**
 *Data Enthusiast*
 
-📧 Email: [misbakhatoon910@gmail.com]  
+📧 Email: misbakhatoon910@gmail.com 
 🔗 LinkedIn: [LinkedIn](https://www.linkedin.com/in/misba-khatoon-5067a3302)  
 
 
