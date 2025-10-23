@@ -225,7 +225,6 @@ This analysis provides a comprehensive view of Netflix's content and can help in
 **Misba Khatoon**
 *[Data Enthusiast]*
 
-📧 Email: [Email](misbakhatoon910@gmail.com) 
 🔗 LinkedIn: [LinkedIn](https://www.linkedin.com/in/misba-khatoon-5067a3302)  
 
 
